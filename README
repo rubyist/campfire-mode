@@ -7,10 +7,10 @@ tinder
 
 Download
 ========
-Currently - just pull from svn until everything is worked out and a more formal package is
-assembled.
+Currently - just pull from github until everything is worked out and a more
+formal package is assembled.
 
-svn co http://edgerepo.com/svn/opensource/emacs/campfire-mode
+git clone git://github.com/rubyist/campfire-mode.git
 
 
 Installation

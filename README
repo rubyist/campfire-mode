@@ -1,0 +1,44 @@
+Requirements
+============
+emacs (duh)
+el4r
+tinder
+
+
+Download
+========
+Currently - just pull from svn until everything is worked out and a more formal package is
+assembled.
+
+svn co http://edgerepo.com/svn/opensource/emacs/campfire-mode
+
+
+Installation
+============
+
+Drop campfire-mode.el into ~/.el4r
+
+Add the following to ~/.el4r/init.rb:
+
+el4r_load 'campfire-mode.rb'
+
+Copy the campfire-mode.el somewhere in your emacs load path, set the
+domain, username, password, and room variables and load it up.
+
+
+Fire up campfire mode with M-x campfire-mode
+
+
+In the *campfire* buffer you can speak with \C-c\C-s
+
+The following functions are also available:
+
+campfire-speak
+campfire-paste-region
+campfire-paste-buffer
+
+
+To shutdown campfire, M-x campfire-stop
+
+
+Questions, comments, patches to scott@theedgecase.com.

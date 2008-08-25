@@ -1,0 +1,12 @@
+URIs should be clickable and open a browser
+
+For some reason, inline/uploads show when you initially load the room, but not as
+they happen.
+
+Random whitespace keeps getting inserted, especially when buffer is not on top
+
+Support multiple domains
+
+Support multiple rooms per domain
+
+Possibly drb out the campfire polling so as not to freeze up emacs in the event of network latency
